@@ -755,6 +755,9 @@ button:focus {
 .service-item:hover p {
   color: #fff;
 }
+.service-item:hover li {
+  color: #fff;
+}
 
 .service-item:hover .service-link {
   color: #fff;
@@ -2186,7 +2189,7 @@ footer {
 }
 
 .service-area.three .service-item:hover {
-  background-color: #ff0000;
+  background-color: #fdb139;
 }
 
 .service-area.three .service-item.two:hover {
@@ -2197,6 +2200,39 @@ footer {
   background-color: #e54b4b;
 }
 
+.service-area.three .service-item ul li .positive {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #0be02f;
+  font-size: 20px;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.service-area.three .service-item ul li .negative {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #e00b0b;
+  font-size: 20px;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
 /*-- End Service CSS --*/
 /*-- Blog CSS --*/
 .blog-item {
